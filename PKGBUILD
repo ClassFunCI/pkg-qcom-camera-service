@@ -18,6 +18,7 @@ build() {
   cmake -B build -S "$pkgname" \
     -DBUILD_CATEGORY=ALL \
     -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_SYSCONFDIR=/etc \
     -DTARGET_BOARD_PLATFORM=qcm6490 \
     -DCMAKE_CXX_FLAGS="-I/usr/include/camx-api/camx/service"
   cmake --build build
