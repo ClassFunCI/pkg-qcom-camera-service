@@ -1,8 +1,9 @@
 pkgbase = qcom-camera-service
 	pkgdesc = Qualcomm QMMF camera service for QCM6490
 	pkgver = 1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/qualcomm/camera-service
+	install = qcom-camera-service.install
 	arch = aarch64
 	license = BSD-3-Clause-Clear
 	makedepends = git
